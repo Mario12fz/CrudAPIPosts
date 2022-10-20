@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Alumno/AndroidStudioProjects/CrudAPIPost/app/src/main/res/layout/activity_main.xml" value="0.25742574257425743" />
+        <entry key="..\:/Users/Alumno/AndroidStudioProjects/CrudAPIPost/app/src/main/res/layout/create_posts_dialog.xml" value="0.11" />
         <entry key="..\:/Users/Alumno/AndroidStudioProjects/CrudAPIPost/app/src/main/res/layout/item_posts.xml" value="0.33" />
       </map>
     </option>

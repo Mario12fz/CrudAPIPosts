@@ -1,10 +1,8 @@
-package com.example.crudapipost
+package com.example.crudapipost.network
 
 import com.example.crudapipost.models.Posts
 import retrofit2.Call
-import retrofit2.http.Body
-import retrofit2.http.GET
-import retrofit2.http.POST
+import retrofit2.http.*
 
 interface APIService {
 
@@ -14,4 +12,7 @@ interface APIService {
 
     @POST
     fun savePosts(@Body posts: Posts): Call<Posts>
+
+    @DELETE("posts/{id}")
+    fun deletePosts(@Path("id") id: Int): Call<String>
 }
